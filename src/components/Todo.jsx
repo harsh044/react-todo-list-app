@@ -12,8 +12,7 @@ import {Trash3Fill , PencilSquare , PlusCircle } from "react-bootstrap-icons"
 function Todo() {
     const [input, setInput] = useState('');
     const [todo, setTodo] = useState([
-        { id: Math.random(), name: "Check My Projects" },
-        {id: Math.random() , name : "Love You Ho Gaya❤"} 
+        { id: Math.random(), name: "Check My Projects" } 
     ]);
     const [updateData, setUpdateData] = useState(null);
     const [IsToggle, setToggle] = useState(true);
